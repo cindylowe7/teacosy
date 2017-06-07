@@ -1,0 +1,160 @@
+/* All styles unless otherwise specified*/
+
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+nav {
+  text-align: right;
+  display: block;
+  flex-grow: 1;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding-top: 5px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+/*Mission content*/
+
+.main {
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+}
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*Tea of the Month*/
+
+#month {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+.picture img {
+  margin: 10px;
+  height: 200px;
+  display: block;
+}
+
+.picture span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Locations*/
+
+#location {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+  margin-top: 100px;
+  width: 1100px;
+  text-align: center;
+}
+
+#location .container {
+  margin: auto;
+  background: none;
+}
+
+.container .location {
+  padding-top: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.address {
+  width: 300px;
+  opacity: 1;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin: 20px;
+  background-color: black;
+  flex-basis: 280px;
+}
+
+#location h2 {
+  background: none;
+}
+
+/*Contact*/
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+footer {
+  padding-left: 20px;
+}
